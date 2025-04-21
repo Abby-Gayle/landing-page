@@ -1,0 +1,160 @@
+h3{/*messes with header*/
+    font-size: 24px;
+}
+
+body{/*colors all webpage*/
+    display: flex;
+    flex-direction: column;
+    margin: 0px; /*helps the background colors reach the edges of page*/
+
+}
+
+.sectionOne{/*changes all text and color in this area*/
+    color: #F9FAF8;
+    font-style: roboto;
+   background-color: #1F2937;
+}
+
+.menu{/*this gets the header and links to line up*/
+    display: flex;
+    justify-content: space-evenly; /*list moved to the right end*/
+    align-items: center; /*lines up the header and links*/
+}
+
+ul{/*remove dots and makes the links horizontal*/
+    list-style-type: none; /*Removes the dots*/
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+li{/*makes space between links one - three*/
+    margin: 5px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text{/*messes with just the text*/
+    float: left;
+    font-size: 18px;
+    width: 300px; /*makes text wrap*/
+}
+
+.pug{/*mess with just the image*/
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 100px;
+}
+
+.info{/*text, button, and pic*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    background-color: #3882F6;/*button blue*/
+    color: white;/*text color white*/
+    border-radius: 4px;/*makes button curved*/
+    padding: 5px 30px;/*height and width of padding*/
+    font-size: 18px;
+    font-weight: bold;/*bolds text*/
+}
+
+
+.sectionTwo{
+    background-color: white;/*background color*/
+    
+}
+
+.randomH{ /*this is for the header of section*/
+    color: #1F2937;/*text color*/
+    font-size: 36px;/*text size*/
+    /*center the header "Some random Info"*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*img of all peace signs and all text*/
+.circle{
+    /*fix the pictures to get to the center*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.circle img{/*shrink img*/
+    height: 150px;
+    width: auto;
+}
+.circle p{/*align the text*/
+    text-align: center;
+    width: 150px; /*makes the text wrap once it hits the border*/
+}
+
+.sectionThree{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionThree p{ /*boxed up*/
+
+    text-align: left;
+    max-width: 600px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+   
+}
+
+.sectionThree h4{
+    text-align: right;
+    margin-top: 0px;
+    width: 40%;
+    display: block;
+ 
+
+}
+
+.sectionFour{
+    background-color: white;
+}
+
+.sectionFour .box{
+    background-color: #3882f6;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:200px;
+    background-position: center;
+}
+.sectionFour .text{
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+.sectionFour button{
+    border-color: white;
+    margin-left: 16px;
+    padding: 8px 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+}
+
